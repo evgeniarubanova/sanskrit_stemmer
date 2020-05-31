@@ -1,0 +1,32 @@
+' русские сочетания
+
+'document.selection.Replace "вйа","вья",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+
+'ненормальные сочетания - мягкий знак перед гласным
+document.selection.Replace "ь","",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "аь","а",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "оь","о",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "уь","у",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "иь","и",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "эь","э",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "еь","е",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+
+
+document.selection.Replace "ьа","я",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "ьо","е",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "ьу","ю",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "ьи","и",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "ьэ","е",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+
+'замены
+document.selection.Replace "ьйо","ьо",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "ьйа","я",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "рйо","рьо",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "йа","я",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "йу","ю",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "йе","е",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "аи","ай",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+document.selection.Replace "/","",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll
+
+'устаревная манера удвоения
+document.selection.Replace "ртт","рт",eeFindNext Or eeFindReplaceEscSeq Or eeReplaceAll

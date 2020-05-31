@@ -1,0 +1,24 @@
+_
+nom _
+gen а
+dat у
+acc а
+ins ом
+loc е
+
+а
+nom а 
+gen ы, и, а
+dat е, у
+acc у, а
+ins ой
+loc е
+
+я
+nom я
+gen и
+dat е
+acc ю
+ins ей
+loc е
+
